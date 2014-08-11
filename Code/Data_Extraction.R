@@ -10,9 +10,9 @@
 
 # Summary data per species ------------------------------------------------
 
-setwd("/Users/multivac42/userFriendly")
+setwd("/Users/multivac42/Research/Activity/QUICCFOR/PPA")
 nyears <- 1000  # Number of simulated years
-dir<-dir("/Users/multivac42/userFriendly/record") # get the name of the files
+dir<-dir("/Users/multivac42/Research/Activity/QUICCFOR/PPA/record") # get the name of the files
 data.frame(strsplit(dir,split=" ")[1])  # Split the names by white space, get the first element (species name)
 
 SP <- c("ABBA","ACRU","ACSA","BEPA","POGR", "POTR","QURU","TIAM") # define the simulated species
